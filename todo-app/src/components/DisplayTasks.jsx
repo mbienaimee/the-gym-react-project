@@ -3,7 +3,7 @@ import Task from "./Task";
 
 function DisplayTasks({ taskes, handleDelete, handleUpdate }) {
   return (
-    <div>
+    <div style={{ textAlign: "center" }}>
       {taskes.map((task) => (
         <Task
           task={task}

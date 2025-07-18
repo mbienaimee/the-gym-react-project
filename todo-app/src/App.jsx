@@ -39,7 +39,7 @@ function App() {
   }
 
   return (
-    <div>
+    <div className="app">
       <AddTask addTask={addTask} />
       <DisplayTasks
         taskes={taskes}
