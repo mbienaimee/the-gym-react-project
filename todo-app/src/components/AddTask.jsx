@@ -14,7 +14,7 @@ function AddTask({ addTask }) {
       <form action="" onSubmit={handleSubmit}>
         <input
           type="text"
-          placeholder="Add to do ..."
+          placeholder="Add to do ... "
           value={task}
           onChange={(e) => setTask(e.target.value)}
           style={{

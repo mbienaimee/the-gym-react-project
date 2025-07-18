@@ -10,6 +10,7 @@ function Task({ task, handleDelete, handleUpdate }) {
         // alignContent: "center",
         // justifyContent: "center",
         textAlign: "center",
+        fontSize: "20px",
       }}
     >
       <input type="checkbox" onClick={() => handleUpdate(task.id)} />
@@ -20,8 +21,17 @@ function Task({ task, handleDelete, handleUpdate }) {
           <span>{task.name}</span>
         )}
       </p>
-      <button onClick={() => handleDelete(task.id)} style={{ height: "30px" }}>
-        <MdDelete style={{ color: "red" }} />
+      <button
+        onClick={() => handleDelete(task.id)}
+        style={{
+          height: "30px",
+          marginTop: "10px",
+          borderRadius: "50px",
+          marginLeft: "200px",
+          // padding: "px",
+        }}
+      >
+        <MdDelete style={{ color: "red", marginTop: "5px" }} />
       </button>
     </div>
   );
