@@ -4,18 +4,13 @@ import DisplayTasks from "./components/DisplayTasks";
 
 const tasks = [
   {
-    id: 1,
-    name: "Doing homework",
-    completed: false,
-  },
-  {
     id: 2,
     name: "visiting friends",
     completed: false,
   },
   {
     id: 3,
-    name: "mopping",
+    name: "mopping house",
     completed: false,
   },
 ];

@@ -7,10 +7,11 @@ function Task({ task, handleDelete, handleUpdate }) {
       style={{
         display: "flex",
         gap: "6px",
-        // alignContent: "center",
-        // justifyContent: "center",
+        alignContent: "center",
         textAlign: "center",
         fontSize: "20px",
+        alignItems: "center",
+        // justifyContent: "center",
       }}
     >
       <input type="checkbox" onClick={() => handleUpdate(task.id)} />
