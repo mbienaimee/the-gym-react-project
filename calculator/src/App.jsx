@@ -103,7 +103,6 @@ function App() {
             text="÷"
           />
 
-          {/* Row 2 */}
           <Button
             onClick={() => inputNumber(7)}
             className="btn-number"
@@ -125,7 +124,6 @@ function App() {
             text="x"
           />
 
-          {/* Row 3 */}
           <Button
             onClick={() => inputNumber(4)}
             className="btn-number"
@@ -147,7 +145,6 @@ function App() {
             text="-"
           />
 
-          {/* Row 4 */}
           <Button
             onClick={() => inputNumber(1)}
             className="btn-number"
@@ -169,7 +166,6 @@ function App() {
             text="+"
           />
 
-          {/* Row 5 */}
           <Button
             onClick={() => inputNumber(0)}
             className="btn-number btn-zero"
