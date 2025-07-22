@@ -19,10 +19,10 @@ function App() {
         return firstValue * secondValue;
       case "÷":
         return firstValue / secondValue;
-      case "=":
-        return secondValue;
-      default:
-        return secondValue;
+      // case "=":
+      //   return secondValue;
+      // default:
+      //   return secondValue;
     }
   };
 
@@ -93,7 +93,6 @@ function App() {
         <Display value={display} />
 
         <div className="button-grid">
-          {/* Row 1 */}
           <Button onClick={clearAll} className="btn-utility" text="AC" />
           <Button onClick={toggleSign} className="btn-utility" text="+/-" />
           <Button onClick={percentage} className="btn-utility" text="%" />
